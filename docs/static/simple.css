@@ -3,6 +3,8 @@
 display: flex;
 flex-direction:column;
   align-content: stretch;
+  color:#3F51B5;
+  margin:40px;
 
 }
 .mywrap{
@@ -14,28 +16,172 @@ flex-direction:column;
 
 .title {
   min-width: 200px;
-  margin:auto;
+  margin-right:auto;
+
+    height: 49px;
+    color: #3F51B5;
+    font-family: 'Source Sans Pro';
+    font-size: 29px;
+    text-align: left;
+    line-height: 1px;
+    padding: 5px;
 }
 
 .badge{
-  width: 50px;
-  height: 50px;
-  border: 1px solid green;
+  width: 81px;
+    height: 84px;
+    color: #9C27B0;
+    font-size: 42px;
+    font-weight: bold;
+    background: linear-gradient(to bottom right,rgba(255,255,255,0),rgba(240,240,240,0));
+    border: none;
+    border-radius: 100%;
+}
+
+#check{
+
+color: #49D24E;
+
 }
 
 .codelink{
-  width: 90px;
-  border: 2px solid blue;
-  border-radius: 3px;
+width: 109px;
+height: 40px;
+color: #000000;
+font-family: 'Source Sans Pro';
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: center;
+background: #FFFFFF;
+border: 3px dotted #3F51B5;
+border-radius: 21px;
+margin-right: 10px;
+
 }
 .divider{
-  border: 20px solid blue;
-  width: 100%;
-  height:0px;
-  margin: 2px 0 2px 0;
+
+width: 100%;
+height: 8px;
+background-color:#3F51B5;
+border: 0 none;
+margin-top: 20px;
+margin-bottom:20px;
+
+}
+
+.label {
+
+width: auto;
+height: 40px;
+color: #3F51B5;
+font-family: 'Source Sans Pro';
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+margin-right: auto;
+}
+
+.pdfIcon{
+width: 68px;
+height: 47px;
+color: #3F51B5;
+font-size: 24px;
+font-weight: normal;
+background: rgba(255,255,255,0.4);
+border: none;
+border-radius: 100%;
+}
+
+.githubIcon{
+    width: 45px;
+height: 45px;
+color: #444444;
+font-size: 24px;
+font-weight: normal;
+background: rgba(255,255,255,0);
+border: none;
+border-radius: 100%;
+}
+
+.versionButton{
+
+width: 97px;
+height: 37px;
+color: #FFFFFF;
+font-family: 'Source Sans Pro';
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: center;
+background: rgba(63,81,181,0.5);
+border: none;
+border-radius: 21px;
+box-shadow: 0 5px 5px -5px #333;
+margin-left: auto;
+}
+
+
+.authName{
+    width: 240px;
+height: 40px;
+color: #000000;
+font-family: 'Source Sans Pro';
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
 }
 
 .main{
-  min-height: 40vh;
-  margin:auto;
+
+
+}
+
+.mainText {
+
+width: auto;
+height: 204px;
+color: #000000;
+font-family: 'Source Sans Pro';
+font-size: 12px;
+text-align: left;
+line-height: 1px;
+padding: 5px;
+}
+
+.ref {
+
+width: 441px;
+height: 40px;
+color: #3F51B5;
+font-family: 'Source Sans Pro';
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+text-decoration: underline;
+text-align: left;
+}
+
+
+.IconButton {
+
+width: 33px;
+height: 30px;
+color: #FFFFFF;
+font-family: 'Source Sans Pro';
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+background: rgba(63,81,181,0.4);
+border: 1px solid #FFFFFF;
+border-radius: 23px;
+box-shadow: 0 5px 5px -5px #333;
+text-align: center;
 }

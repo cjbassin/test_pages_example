@@ -18,12 +18,10 @@ flex-direction:column;
   min-width: 200px;
   margin-right:auto;
 
-    height: 49px;
     color: #3F51B5;
     font-family: 'Source Sans Pro';
     font-size: 29px;
     text-align: left;
-    line-height: 1px;
     padding: 5px;
 }
 
@@ -74,7 +72,7 @@ margin-bottom:20px;
 .label {
 
 width: auto;
-height: 40px;
+height: 45px;
 color: #3F51B5;
 font-family: 'Source Sans Pro';
 font-size: 16px;
@@ -87,7 +85,7 @@ margin-right: auto;
 
 .pdfIcon{
 width: 68px;
-height: 47px;
+height: 45px;
 color: #3F51B5;
 font-size: 24px;
 font-weight: normal;
@@ -110,7 +108,7 @@ border-radius: 100%;
 .versionButton{
 
 width: 97px;
-height: 37px;
+height: 45px;
 color: #FFFFFF;
 font-family: 'Source Sans Pro';
 font-size: 12px;
